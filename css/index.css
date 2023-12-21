@@ -107,3 +107,80 @@ main .main .buttons .button1 {
 .main2 .cards .card .data a {
   color: blue;
 }
+
+#section2 {
+  height: 733;
+  background-color: rgb(242, 241, 241);
+  border: 1px solid #adb5bd;
+}
+#section2 .container {
+  width: 100%;
+  margin-top: 100px;
+}
+#section2 .container .allcards {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+#section2 .container .info {
+  text-align: center;
+}
+#section2 .container .info p {
+  margin-top: 5px;
+  color: #6c757d;
+}
+#section2 .container h2 {
+  font-size: 32px;
+}
+#section2 .container .cards {
+  width: 26%;
+  height: 462px;
+  background-color: #fff;
+  padding: 45px 60px;
+  border: 1px solid #adb5bd;
+}
+#section2 .container .cards .free {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(108, 117, 125);
+}
+#section2 .container .cards .zero {
+  font-size: 56px;
+  font-weight: 700;
+}
+#section2 .container .cards .month {
+  color: rgb(108, 117, 125);
+}
+#section2 .container .cards .down {
+  margin-top: 10px;
+}
+#section2 .container .cards .down p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+#section2 .container .cards .down p .fa-xmark {
+  color: rgb(108, 117, 125);
+}
+#section2 .container .cards .down .button {
+  padding: 15px 12px;
+}
+#section2 .container .cards .button1 :hover {
+  background-color: #0d6efd;
+  cursor: pointer;
+  transition: 1.5s;
+  border: none;
+  transform: scale(1.1);
+  color: white;
+}
+#section2 .container .cards .button1 button {
+  width: 252px;
+  height: 32px;
+  margin-top: 25px;
+  border: 1px solid rgb(13, 110, 253);
+  border-radius: 5px;
+  color: rgb(13, 110, 253);
+  background-color: #fff;
+}
